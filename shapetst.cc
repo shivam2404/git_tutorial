@@ -39,6 +39,15 @@ int main(int argc, char** argv)
   swin.setPalette(QPalette{"black", "white"});
 
   swin.show();
+   sc->add(subsc);
+
+  ShapeWindow swin{sc};
+  swin.resize(301, 301);
+  swin.setMinimumSize(301, 301);
+  swin.setPalette(QPalette{"black", "white"});
+
+  swin.show();
+
 
   return qapp.exec();
 }
