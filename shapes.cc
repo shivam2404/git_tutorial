@@ -13,6 +13,7 @@ void Dot::drawMe(ShapeWindow& swin) const
 {
   swin.dot(ref);
 }
+void Dot::drawMe // changed 03_08_2020
 
 void Line::drawMe(ShapeWindow& swin) const
 {
